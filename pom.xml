@@ -66,17 +66,17 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>packagecloud.release</id>
-            <url>https://packagecloud.io/simi1912/release</url>
-        </repository>
-        <snapshotRepository>
-            <id>packagecloud.snapshot</id>
-            <url>https://packagecloud.io/simi1912/snapshot</url>
-<!--            packagecloud+-->
-        </snapshotRepository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>packagecloud.release</id>-->
+<!--            <url>https://packagecloud.io/simi1912/release</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>packagecloud.snapshot</id>-->
+<!--            <url>https://packagecloud.io/simi1912/snapshot</url>-->
+<!--&lt;!&ndash;            packagecloud+&ndash;&gt;-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 
     <profiles>
         <profile>
