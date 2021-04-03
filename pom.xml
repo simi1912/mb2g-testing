@@ -15,6 +15,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <TEST_HOST>localhost</TEST_HOST>
+        <project.scm.id>github</project.scm.id>
     </properties>
 
     <dependencies>
@@ -33,7 +34,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection></developerConnection>
+        <developerConnection>scm:git:https://github.com/simi1912/mb2g-testing.git</developerConnection>
+        <url>https://github.com/simi1912/mb2g-testing</url>
     </scm>
 
     <build>
@@ -81,4 +83,5 @@
             </properties>
         </profile>
     </profiles>
+
 </project>
